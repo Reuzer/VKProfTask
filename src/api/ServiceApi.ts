@@ -4,14 +4,14 @@ import axios from "axios";
 
 
 class ServiceApi {
-    static async getProducts(limit = 10, page = 1) : Promise<AxiosResponse<GetProduct[]>> {
+    static async getProducts(limit = 20, page = 1) : Promise<AxiosResponse<GetProduct[]>> {
         const response = await axios.get('http://localhost:3000/products', {
             params: {
                 _limit: limit,
                 _page: page,
             }
         })
-        return response.data;
+        return response;
     }
 
     static async postProduct(product: PostProduct) {

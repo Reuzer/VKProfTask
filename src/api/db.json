@@ -1,5 +1,228 @@
 {
-    "products": [
-        
-    ]
+  "products": [
+    {
+      "id": "03b0",
+      "name": "Макароны",
+      "factory": "Barilla",
+      "price": 100,
+      "category": "Бакалея",
+      "quantity": 100
+    },
+    {
+      "id": "16e3",
+      "name": "awd",
+      "factory": "awdawd",
+      "price": 123,
+      "category": "Напитки",
+      "quantity": 123
+    },
+    {
+      "id": "c0c0",
+      "name": "awd123",
+      "factory": "awdawd123",
+      "price": 12313,
+      "category": "Овощи и фрукты",
+      "quantity": 123213
+    },
+    {
+      "id": "841d",
+      "name": "a",
+      "factory": "awd123",
+      "price": 12313123,
+      "category": "Бакалея",
+      "quantity": 123213123
+    },
+    {
+      "id": "26dc",
+      "name": "a",
+      "factory": "awd123",
+      "price": 12313123,
+      "category": "Бакалея",
+      "quantity": 123213123
+    },
+    {
+      "id": "9106",
+      "name": "a",
+      "factory": "awd123",
+      "price": 12313123,
+      "category": "Бакалея",
+      "quantity": 123213123
+    },
+    {
+      "id": "36c4",
+      "name": "a",
+      "factory": "awd123",
+      "price": 12313123,
+      "category": "Бакалея",
+      "quantity": 123213123
+    },
+    {
+      "id": "f099",
+      "name": "a",
+      "factory": "awd123",
+      "price": 12313123,
+      "category": "Бакалея",
+      "quantity": 123213123
+    },
+    {
+      "id": "e0b6",
+      "name": "a",
+      "factory": "awd123",
+      "price": 12313123,
+      "category": "Бакалея",
+      "quantity": 123213123
+    },
+    {
+      "id": "dab9",
+      "name": "a",
+      "factory": "awd123",
+      "price": 12313123,
+      "category": "Бакалея",
+      "quantity": 123213123
+    },
+    {
+      "id": "0ab4",
+      "name": "a",
+      "factory": "awd123",
+      "price": 12313123,
+      "category": "Бакалея",
+      "quantity": 123213123
+    },
+    {
+      "id": "0f12",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "aa33",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "a175",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "3f1c",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "5b1a",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "37b2",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "c23f",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "bc5c",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "3716",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "bc41",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "24c2",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "bf70",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "b761",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "ff19",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "e66f",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "255f",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    },
+    {
+      "id": "1e0e",
+      "name": "йцу",
+      "factory": "йцу",
+      "price": 12,
+      "category": "Бакалея",
+      "quantity": 123
+    }
+  ]
 }

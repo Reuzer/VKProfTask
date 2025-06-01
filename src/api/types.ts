@@ -11,7 +11,7 @@ export interface PostProduct {
     name: string;
     factory: string;
     price: number;
-    category: 'Бакалея' | 'Газировки' | 'Сладости' | 'Овощи и фрукты' | 'Снеки';
+    category: 'Бакалея' | 'Напитки' | 'Сладости' | 'Овощи и фрукты' | 'Снеки' | '';
     quantity: number;
 }
 

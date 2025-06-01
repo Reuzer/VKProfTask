@@ -1,0 +1,20 @@
+.Header {
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.link {
+    color: black
+}
+
+.link:hover {
+    color: rgb(83, 83, 251)
+}

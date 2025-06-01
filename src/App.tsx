@@ -1,46 +1,19 @@
-import { Table } from 'antd';
-import styles from './App.module.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { routesConfig } from './config/config';
+import Header from './components/header/Header';
+
 
 
 function App() {
-  const columns = [
-    {
-      title: 'ID',
-      dataIndex: 'id',
-      key: 'id'
-    },
-    {
-      title: 'Имя товара',
-      dataIndex: 'name',
-      key: 'name'
-    },
-    {
-      title: 'Изготовитель',
-      dataIndex: 'name',
-      key: 'name'
-    },
-    {
-      title: 'Цена',
-      dataIndex: 'price',
-      key: 'price'
-    },
-    {
-      title: 'Категория',
-      dataIndex: 'category',
-      key: 'category'
-    },
-    {
-      title: 'Количество товара',
-      dataIndex: 'quantity',
-      key: 'quantity'
-    }
-  ]
-
-
   return (
-    <>
-      <Table className={styles.table} columns={columns}/>
-    </>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        {routesConfig.map(item => 
+          <Route key={item.path} path={item.path} Component={item.Component} />
+        )}
+      </Routes>
+    </BrowserRouter>
   )
 }
 

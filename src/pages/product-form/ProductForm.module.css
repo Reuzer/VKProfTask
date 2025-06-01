@@ -1,0 +1,39 @@
+.product_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.select {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputData {
+    margin-top: 10px;
+}
+
+.submit_btn {
+    margin-top: 20px;
+}
+
+.error_message {
+    color: #ff4d4f;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.form_item {
+    margin-bottom: 16px;
+}
+
+.error_alert {
+    margin-top: 16px;
+}
+
+.product_form_container {
+    max-width: 500px;
+    margin: 0 auto;
+}
