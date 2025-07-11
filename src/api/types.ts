@@ -11,10 +11,10 @@ type releaseYears = {
     end: number
 }
 
-export interface movie {
+export interface Movie {
     id: number,
     name: null | string,
-    alternativeName: null | "Spyder Games",
+    alternativeName: null | string,
     type: string,
     typeNumber: number,
     year: number,
@@ -36,13 +36,17 @@ export interface movie {
         await: number
     },
     movieLength: null | number,
-    totalSeriesLength: 30 | null,
+    totalSeriesLength: number | null,
     seriesLength: null | number,
     ratingMpaa: null | number,
     ageRating: null | number,
+    poster: {
+        url: string,
+        previewUrl: string
+    } | null,
     genres: genres[],
     countries: countries[],
-    releaseYears: releaseYears[] 
+    releaseYears: releaseYears[]
     top10: null | number,
     top250: null | number,
     isSeries: boolean,
@@ -50,7 +54,7 @@ export interface movie {
 }
 
 export interface MovieResponse {
-    docs: movie[],
+    docs: Movie[],
     total: number,
     limit: number,
     page: number,
