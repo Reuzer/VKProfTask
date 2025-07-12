@@ -6,7 +6,12 @@
     border: 1px orange solid;
     border-radius: 6px;
     width: 30%;
-    
+    cursor: pointer;
+    transition: border 0.6s ease;
+}
+
+.wrapper:hover {
+    border: 1px blue solid;
 }
 
 .img {

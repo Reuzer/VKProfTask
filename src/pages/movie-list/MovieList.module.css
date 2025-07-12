@@ -7,3 +7,55 @@
     max-width: 1500px;
     flex-wrap: wrap;
 }
+
+.filters {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px
+}
+
+.filters__title {
+    text-align: left;
+}
+
+.genres {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.genres__title {
+    margin-top: 0;
+}
+
+.rating {
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.rating__title {
+    margin-top: 0;
+}
+
+.year {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px
+}
+
+.year__title {
+    margin-top: 0;
+}
+
+.filters__button {
+    align-self: center;
+}
+
+
+
+
