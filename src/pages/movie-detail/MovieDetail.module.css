@@ -1,0 +1,35 @@
+.wrapper {
+    margin: 30px auto 0 auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.movie__info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.movie__name {
+    margin-top: 0;
+}
+
+.favBtn {
+    margin-top: 10px;
+}
+
+.genres {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.genres__genre {
+    margin: 0;
+}
+
+.genres__title {
+    margin: 0;
+}

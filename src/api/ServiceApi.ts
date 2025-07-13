@@ -1,6 +1,6 @@
 import type { AxiosResponse } from "axios";
 import api from "./httpClient";
-import type { MovieResponse } from "./types";
+import type { Movie, MovieResponse } from "./types";
 
 const currYear = new Date().getFullYear();
 
@@ -13,6 +13,11 @@ class ServiceApi {
                 limit: limit,
             }
         })
+        return response;
+    }
+
+    static async getMovie (id: string): Promise<AxiosResponse<Movie>> {
+        const response = await api.get(`movie/${id}`);
         return response;
     }
 }
