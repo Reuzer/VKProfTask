@@ -7,7 +7,6 @@ const currYear = new Date().getFullYear();
 class ServiceApi {
     
     static async getMovies (page: number, limit: number, filters:string = `year=1990-${currYear}`): Promise<AxiosResponse<MovieResponse>> {
-        console.log('movie'+filters)
         const response = await api.get('movie?'+filters, {
             params: {
                 page: page,

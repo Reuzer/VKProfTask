@@ -7,7 +7,7 @@ const api = axios.create({
 api.interceptors.request.use(
     (config) => {
         if(config.headers) {
-            config.headers['X-API-KEY'] = 'WKNM0MN-KGTMRAD-HEYKYV0-8NZ8W92'
+            config.headers['X-API-KEY'] = '6AYGK4P-DSH48A6-KPHZK93-W78T4H8'
         }
         return config
     }, 

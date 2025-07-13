@@ -36,12 +36,11 @@ const MovieList = () => {
         if (isLoading || !hasMore) return;
         setIsLoading(true);
         const responseData = isSearchParameters ? await ServiceApi.getMovies(page, LIMIT, searchParams.toString()) : await ServiceApi.getMovies(page, LIMIT);
-        console.log(responseData)
         setMovies((prev) => [...prev, ...responseData.data.docs])
         setHasMore(responseData.data.docs.length === LIMIT);
         setPage((prev) => prev + 1)
         setIsLoading(false);
-    }, [page, isLoading, hasMore, searchParams])
+    }, [page, isLoading, hasMore])
 
     const toggleGenre = (genre: string) => {
         if (searchParams.has('genres.name')) {
@@ -82,7 +81,8 @@ const MovieList = () => {
         }
     }, [fetching, hasMore, isLoading])
 
-    const handleFilterClick = () => {
+
+    const handleFilterClick = async () => {
         if (Number(ratingRange.from) < 0 || Number(ratingRange.to) > 10) {
             throw new Error('Неверный ввод рейтинга')
         } else if (Number(yearRange.from) < 1990 || Number(yearRange.to) > 2025) {
@@ -95,9 +95,15 @@ const MovieList = () => {
         selectedGenres.forEach(genre => newParams.append('genres.name', genre));
 
         setSearchParams(newParams, { replace: true });
+
         setPage(1);
         setMovies([]);
-        fetching();
+        setHasMore(true);
+        setIsLoading(true);
+        const responseData = await ServiceApi.getMovies(1, LIMIT, newParams.toString());
+        setMovies(responseData.data.docs);
+        setHasMore(responseData.data.docs.length === LIMIT);
+        setIsLoading(false);
     }
 
     return (
