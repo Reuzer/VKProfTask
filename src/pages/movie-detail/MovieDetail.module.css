@@ -16,10 +16,6 @@
     margin-top: 0;
 }
 
-.favBtn {
-    margin-top: 10px;
-}
-
 .genres {
     display: flex;
     gap: 20px;

@@ -33,8 +33,7 @@ const MovieDetail = () => {
     return (
         <div className={styles.wrapper}>
             <div>
-                <img className={styles.movie__img} src={movie?.poster ? movie.poster.previewUrl : ''} alt="Нет изображения" /><br />
-                <button className={styles.favBtn}>Добавить в избранное</button>
+                <img className={styles.movie__img} src={movie?.poster ? movie.poster.previewUrl : ''} alt="Нет изображения" />
             </div>
             <div className={styles.movie__info}>
                 <h3 className={styles.movie__name}>{movie?.name ? movie.name : movie?.alternativeName}</h3>
