@@ -7,7 +7,7 @@ const api = axios.create({
 api.interceptors.request.use(
     (config) => {
         if(config.headers) {
-            config.headers['X-API-KEY'] = '6AYGK4P-DSH48A6-KPHZK93-W78T4H8'
+            config.headers['X-API-KEY'] = '6AYGK4P-DSH48A6-KPHZK93-W78T4H8' // Не должно быть так в проектах, обычно создается файл с секретными ключами, который помещается в .gitignore
         }
         return config
     }, 
