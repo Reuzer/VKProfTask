@@ -21,3 +21,9 @@
     object-fit: cover;
 }
 
+.modal__btns {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
